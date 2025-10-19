@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=WordGame
+comment0.text=\n\ Allows\ the\ user\ to\ play\ Jotto.\ Has\ the\ following\ methods\:\n\ \ \ \ \ \ echo()\n\ \ \ \ \ \ dictionaryIndex(String\ str)\n\ \ \ \ \ \ getRandomWord()\n\ \ \ \ \ \ getRandomWord(int\ len)\n\ \ \ \ \ \ commonLetters(word1,\ word2)\n\ \ \ \ \ \ jotto()\n\n\ @author\ Melody\ Yin\n\ @version\ 1-24-22\n
+comment1.params=
+comment1.target=WordGame()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ WordGame\ -\ creates\ a\ new\ WordGameDisplay\n\ \ \ \ \ \ and\ stores\ it\ as\ an\ instance\ variable.\n\ @postcondition\ wgdisplay\ is\ initialized\ and\ dictionary\ has\ loaded\n\ \ \ \ \ \ words\ from\ dictionary\ file\n
+comment2.params=
+comment2.target=void\ echo()
+comment2.text=\n\ Sets\ title\ of\ display\ to\ "The\ Echo\ Game"\ and\ prompts\ user\ to\ enter\ a\ \n\ \ \ \ \ \ word.\ When\ user\ enters\ a\ word,\ window\ echos\ back\ what\ the\ user\n\ \ \ \ \ \ typed.\n\ @postcondition\ 'echo'\ game\ is\ played\ in\ a\ popup\ with\ user\ \ \ \ \ \n
+comment3.params=str
+comment3.target=int\ dictionaryIndex(java.lang.String)
+comment3.text=\n\ Returns\ the\ index\ of\ a\ given\ string\ in\ a\ dictionary\ using\ \n\ \ \ \ \ \ an\ iterative\ implementation\ of\ binary\ search.\n\ \ \ \ \ \ Binary\ search\ -\ checks\ the\ middle\ of\ the\ array.\ If\ the\ string\ is\n\ \ \ \ \ \ greater\ in\ value\ than\ the\ middle,\ look\ in\ the\ right\ half\ of\ the\n\ \ \ \ \ \ array.\ If\ the\ string\ is\ equal\ to\ the\ middle,\ return\ the\ index.\n\ \ \ \ \ \ If\ the\ string\ is\ lesser\ in\ value,\ check\ the\ left\ half\ of\ the\n\ \ \ \ \ \ array.\ Repeat\ until\ the\ array\ size\ is\ 0\ or\ the\ item\ is\ found.\n\ @param\ str\ is\ the\ string\ being\ looked\ for\ in\ the\ dictionary\n\ @return\ the\ index\ of\ a\ string\ in\ the\ dictionary\n\ \ \ \ \ \ returns\ -1\ if\ the\ string\ is\ not\ found\n
+comment4.params=
+comment4.target=java.lang.String\ getRandomWord()
+comment4.text=\n\ Chooses\ a\ random\ word\ from\ the\ dictionary\ and\ returns\ it\n\ @return\ a\ random\ word\ from\ dictionary\n
+comment5.params=len
+comment5.target=java.lang.String\ getRandomWord(int)
+comment5.text=\n\ Finds\ a\ random\ word\ from\ the\ dictionary\ of\ a\ specified\ length\ using\n\ \ \ \ \ \ getRandomWord\ and\ returns\ it\n\ @param\ len\ is\ the\ length\ of\ the\ word\n\ @return\ a\ random\ word\ of\ length\ len\ from\ dictionary\n
+comment6.params=word1\ word2
+comment6.target=int\ commonLetters(java.lang.String,\ java.lang.String)
+comment6.text=\n\ Finds\ the\ number\ of\ letters\ that\ two\ words\ have\ in\ common\ using\ \n\ \ \ \ \ \ recursion\n\ @param\ word1\ is\ the\ first\ word\n\ @param\ word2\ is\ the\ second\ word\n\ @return\ the\ number\ of\ letters\ that\ two\ words\ have\ in\ common\n
+comment7.params=
+comment7.target=void\ jotto()
+comment7.text=\n\ plays\ jotto\ with\ the\ user\ -\ selects\ as\ random\ word\ of\ len\ n,\ starting\n\ \ \ \ \ \ at\ len\ 2,\ and\ has\ the\ user\ guess\ the\ word.\ if\ the\ user\ gets\ the\n\ \ \ \ \ \ word\ incorrect,\ jotto\ prints\ out\ the\ number\ of\ words\ that\ their\n\ \ \ \ \ \ guess\ has\ in\ common\ with\ the\ random\ word.\ if\ the\ user\ gets\ the\n\ \ \ \ \ \ word\ right,\ jotto\ will\ choose\ a\ new\ random\ word\ of\ length\ n\ +\ 1.\n\ \ \ \ \ \ the\ game\ continues\ until\ the\ user\ quits.\ if\ the\ user\ enters\ \n\ \ \ \ \ \ 'pass',\ the\ game\ will\ reveal\ the\ random\ word\ and\ then\ choose\ a\n\ \ \ \ \ \ new\ word\ of\ len\ n.\n
+numComments=8

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=WordGameDisplay
+comment0.text=\n\ DO\ NOT\ MODIFY\ THIS\ CLASS.\n\ There\ are\ no\ user\ serviceable\ parts\ inside.\n\ Altering\ this\ class\ in\ any\ way\ will\ void\ your\ warranty.\n\ \n\ WordGameDisplay\ is\ responsible\ for\ managing\ the\ Word\ Game\ lab\ graphical\ user\ interface.\n\ It\ provides\ the\ following\ services\:\n\ \ \ \ \ \ constructor\ -\ initializes\ the\ GUI\ and\ displays\ it\n\ \ \ \ \ \ setTitle(String\ title)\ -\ sets\ the\ title\ on\ the\ GUI\ frame\n\ \ \ \ \ \ getGuess\ -\ gets\ the\ content\ of\ the\ guess\ window.\ \ The\ method\ blocks\ until\ the\ user\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ inputs\ into\ the\ text\ field.\ \ Typing\ "enter"\ into\ the\ guess\ field\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ triggers\ an\ event\ that\ is\ captured\ by\ this\ object.\ \ The\ event\ signals\ that\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ input\ is\ ready.\ \ When\ input\ is\ ready,\ the\ getGuess\ method\ will\ return\ the\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ contents\ of\ the\ input\ text\ field.\ \ Note\ that\ the\ text\ field\ must\ signal\ an\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ event\ each\ time\ getGuess\ is\ called.\n\ \ \ \ \ \ setText(String\ text)\ -\ replaces\ the\ text\ in\ the\ output\ text\ area\ with\ the\ value\ specified\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ as\ the\ method\ parameter.\n\ \ \ \ \ \ loadWords(String\ file)\ -\ The\ parameter\ file\ specifies\ a\ path\ to\ a\ file\ that\ must\ exist.\ \ The\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ file\ is\ read\ into\ an\ internal\ data\ structure\ and\ an\ iterator\ object\ is\ returned\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ allowing\ the\ calling\ object\ to\ iterate\ over\ the\ data.\n
+comment1.params=
+comment1.target=WordGameDisplay()
+comment1.text=\n\ constructor\ initializes\ the\ word\ game\ display\n
+comment2.params=key
+comment2.target=WordGameDisplay(int)
+comment2.text=\n\ constructor\ for\ future\ expansion\n\ @param\ key\n
+comment3.params=title
+comment3.target=void\ setTitle(java.lang.String)
+comment3.text=\n\ sets\ the\ GUI\ title\ field\n\ @param\ title\ -\ the\ new\ title\ for\ the\ GUI\n
+comment4.params=
+comment4.target=java.lang.String\ getGuess()
+comment4.text=\ngets\ the\ content\ of\ the\ guess\ window.\ \ The\ method\ blocks\ until\ the\ user\n\ \ \ \ \ inputs\ into\ the\ text\ field.\ \ Typing\ "enter"\ into\ the\ guess\ field\n\ \ \ \ \ triggers\ an\ event\ that\ is\ captured\ by\ this\ object.\ \ The\ event\ signals\ that\n\ \ \ \ \ input\ is\ ready.\ \ When\ input\ is\ ready,\ the\ getGuess\ method\ will\ return\ the\n\ \ \ \ \ contents\ of\ the\ input\ text\ field.\ \ Note\ that\ the\ text\ field\ must\ signal\ an\n\ \ \ \ \ event\ each\ time\ getGuess\ is\ called.\ \n\ @return\ a\ String\ object\ whose\ value\ is\ the\ value\ of\ the\ input\ text\ field\n
+comment5.params=event
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.text=\n\ action\ listener\ -\ fired\ whenever\ the\ input\ text\ box\ changes\n
+comment6.params=text
+comment6.target=void\ setText(java.lang.String)
+comment6.text=\n\ replaces\ the\ text\ in\ the\ output\ box\ with\ the\ value\ in\ the\ parameter\n\ @param\ text\ the\ new\ text\ to\ display\n
+comment7.params=file
+comment7.target=java.util.Iterator\ loadWords(java.lang.String)
+comment7.text=\n\ read\ the\ user\ file\ into\ an\ internal\ data\ structure\ and\ then\ return\ an\ iterator\n\ for\ the\ data\ structure\n\ @param\ file\ the\ fully\ qualified\ path\ to\ the\ text\ file\ to\ open\n\ @return\ an\ iterator\ for\ the\ internal\ data\ structure\n
+numComments=8

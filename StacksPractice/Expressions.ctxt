@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Expressions
+comment0.text=\n\ Expressions\ class\ that\ can\ check\ if\ parentheses\n\ \ \ \ \ \ are\ balanced\ and\ perform\ infix/postfix\ operations\n\ @author\ Anu\ Datar\n\ @author\ Melody\ Yin\n\ @version\ 10/27/2017\n
+comment1.params=expression
+comment1.target=boolean\ matchParenthesis(java.lang.String)
+comment1.text=\ parenthesis\ matching\ \:\ An\ expression\ is\ said\ to\ be\ balanced\ if\n\ every\ opener\ has\ a\ corresponding\ closer,\ in\ the\ right\ order\n\ {,\ [\ or\ (\ are\ the\ only\ types\ of\ brackets\ allowed\n\ @param\ \ \ expression\ containing\ operands\ operators\ \n\ \ \ \ \ \ and\ any\ of\ the\ 3\ supportedbrackets\n\ @return\ \ true\ is\ the\ parenthesis\ are\ balanced\ \ \ \ \ \ \ \ \ \n\ \ \ \ //\ \ \ \ \ \ \ \ \ \ false\ otherwise\n
+comment2.params=expr
+comment2.target=java.lang.String\ infixToPostfix(java.lang.String)
+comment2.text=\n\ returns\ a\ string\ in\ postfix\ form\n\ \ \ \ \ \ if\ given\ an\ expression\ in\ infix\ form\ as\ a\ parameter,\ \n\ \ \ \ \ \ does\ this\ conversion\ using\ a\ Stack\n\ @param\ expr\ valid\ expression\ in\ infix\ form\n\ @precondition\ only\ integers\ and\ operators\ (*,\ /,\ +,\ -,\ %)\ are\ included\n\ \ \ \ \ \ \ \ \ \ parentheses\ are\ balanced\n\ @return\ equivalent\ expression\ in\ postfix\ form\n
+comment3.params=operator
+comment3.target=int\ ranker(java.lang.String)
+comment3.text=\n\ 'ranking'\ function\ that\ determines\ the\ precendence\ of\ an\ operator\n\ @param\ operator\ is\ the\ operator\ we\ are\ determining\ the\ precedence\ of\n\ @return\ 1\ if\ the\ operator\ is\ +\ or\ -\n\ \ \ \ \ \ \ \ \ \ return\ 2\ if\ the\ operator\ is\ *\ or\ /\ or\ %\n
+comment4.params=expr
+comment4.target=double\ evalPostfix(java.lang.String)
+comment4.text=\ returns\ the\ value\ of\ an\ expression\ in\ postfix\ form\ and\ does\ this\n\ \ \ \ \ \ \ \ \ \ computation\ using\ a\ Stack\n\ @param\ expr\ valid\ expression\ in\ postfix\ form\n\ @return\ value\ of\ the\ expression\n\ @precondition\ postfix\ expression\ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ contains\ numbers\ and\ operators\ +\ -\ *\ /\ and\ %\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ that\ operands\ and\ operators\ are\ separated\ by\ spaces\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ Tester\ to\ check\ if\ infix\ to\ postfix\ and\ evaluate\ postfix\ work\ well\n\ @param\ args\ user\ input\n
+comment6.params=expr\ expect
+comment6.target=void\ test(java.lang.String,\ double)
+comment6.text=\n\ Tester\ that\ runs\ infixtopostfix\ testing\ situations\n\ @param\ expr\ is\ string\ being\ changed\ from\ infix\ to\ postfix\n\ @param\ expect\ is\ the\ expected\ answer\n
+comment7.params=ex\ expected
+comment7.target=void\ testBalanced(java.lang.String,\ boolean)
+comment7.text=\n\ Tester\ that\ runs\ palindrome/parentheses\ testing\ situations\n\ @param\ ex\ is\ the\ string\ you're\ trying\ to\ match\ parentheses\ on\n\ @param\ expected\ is\ the\ expected\ result\n
+numComments=8
