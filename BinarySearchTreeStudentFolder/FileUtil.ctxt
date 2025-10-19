@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FileUtil
+comment0.text=\n\ FileUtil\ class\ that\ can\ manipulate\ and\ access\ files\n\ @author\ Anu\ Datar\n\ @version\ 12-4-21\n
+comment1.params=fileName
+comment1.target=java.util.Iterator\ loadFile(java.lang.String)
+comment1.text=\n\ loads\ a\ file\ from\ given\ file\ name\ and\ returns\ a\ string\n\ @param\ fileName\ is\ the\ name\ of\ the\ file\ to\ be\ loaded\ from\n\ @return\ string\ of\ file\ contents\n
+comment2.params=fileName\ data
+comment2.target=void\ saveFile(java.lang.String,\ java.util.Iterator)
+comment2.text=\n\ Given\ a\ string,\ write\ the\ string\ to\ a\ file\ of\ a\ given\ name\n\ @param\ fileName\ is\ name\ of\ file\ data\ is\ being\ saved\ to\n\ @param\ data\ is\ an\ iterator\ that\ goes\ through\ all\ the\ data\n
+numComments=3

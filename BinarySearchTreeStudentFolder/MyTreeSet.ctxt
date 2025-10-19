@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MyTreeSet
+comment0.text=\n\ implementation\ of\ a\ tree\ set\ which\ has\ the\ following\ methods\n\ \ \ \ \ \ size\ -\ returns\ the\ size\ of\ the\ treeset\n\ \ \ \ \ \ contains\ -\ returns\ true/false\ depending\ on\ if\ an\ element\ is\ in\ the\ set\n\ \ \ \ \ \ add\ -\ add\ an\ object\ to\ the\ tree\ set\n\ \ \ \ \ \ remove\ -\ removes\ element\ from\ set\n\ \ \ \ \ \ toString\ -\ converts\ tree\ to\ string\n\ @author\ Melody\ Yin\n\ @author\ Anu\ Datar\n\ @param\ <E>\ is\ the\ element\ type\ in\ the\ set\n\ @version\ 1-14-22\n
+comment1.params=
+comment1.target=MyTreeSet()
+comment1.text=\n\ initializes\ new\ treeset\ object\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\n\ @return\ size\ of\ the\ tree\n
+comment3.params=obj
+comment3.target=boolean\ contains(java.lang.Object)
+comment3.text=\n\ uses\ BSTUtilities's\ contains()\ to\ determine\ if\ an\ element\ appears\ in\n\ \ \ \ \ \ a\ tree.\ BSTUtilities's\ contains()\ uses\ recursion\ to\ look\ in\ the\n\ \ \ \ \ \ left\ and\ right\ subtrees\ of\ the\ current\ node\ until\ a\ leaf\ node\ is\n\ \ \ \ \ \ reached\ and\ the\ object\ is\ not\ found\ or\ the\ object\ is\ found.\n\ @param\ obj\ is\ the\ object\ we\ are\ looking\ for\ in\ the\ tree\n\ @return\ true\ if\ tree\ contains\ object,\ false\ otherwise\n
+comment4.params=obj
+comment4.target=boolean\ add(java.lang.Object)
+comment4.text=\n\ uses\ contains\ to\ see\ if\ obj\ is\ present\ in\ set.\ if\ obj\ is\ not\ present\ \n\ \ \ \ \ \ in\ set,\ adds\ obj\ and\ returns\ true;\ otherwise\ returns\ false.\n\ \ \ \ \ \ increases\ size\ by\ 1.\n\ @param\ obj\ is\ the\ object\ to\ be\ added\n\ @return\ true\ if\ object\ is\ not\ in\ set,\ false\ otherwise\n
+comment5.params=obj
+comment5.target=boolean\ remove(java.lang.Object)
+comment5.text=\n\ if\ obj\ is\ present\ in\ set,\ removes\ obj\ and\ returns\ true;\ otherwise\n\ \ \ \ \ \ returns\ false.\ decreases\ size\ by\ 1.\n\ @param\ obj\ is\ the\ object\ to\ be\ removed\n\ @return\ true\ if\ object\ is\ in\ set,\ false\ otherwise\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ converts\ tree\ to\ string\ using\ helper\ method\n\ @return\ tree\ converted\ to\ string\n
+comment7.params=t
+comment7.target=java.lang.String\ toString(TreeNode)
+comment7.text=\n\ recurses\ down\ the\ tree\ and\ returns\ the\ left\ subtree's\ root\ value,\ root\n\ \ \ \ \ \ value,\ and\ right\ subtree's\ root\ value\n\ @param\ t\ node\ of\ tree\ to\ be\ converted\ to\ string\n\ @return\ tree\ printed\ in\ inorder\ format\n
+numComments=8

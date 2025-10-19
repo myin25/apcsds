@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=TreeDisplay
+comment0.text=\n\ A\ graphical\ component\ for\ displaying\ the\ contents\ of\ a\ binary\ tree.\n\ The\ following\ methods\ are\ designed\ for\ interacting\ with\ the\ display\:\n\ \ \ \ \ \ Default\ constructor\ TreeDisplay()\n\ \ \ \ \ \ displayTree(TreeNode\ someTree)\n\ \ \ \ \ \ visit(TreeNode\ someNode)\n\ The\ displayTree\ method\ creates\ the\ initial\ display\ of\ the\ tree.\ \ It\ clears\ the\ component\n\ and\ paints\ the\ tree\n\ The\ visit\ method\ changes\ the\ background\ color\ of\ the\ node\ defined\ in\ the\ parameter\n\ sample\ Useage\:\n\ TreeDisplay\ display\ \=\ new\ TreeDisplay();\n\ display.displayTree(someTree);\n\ display.visit(someNode);\n\ \n\ @author\ DaveF\n\ @author\ RichardP\n\ @version\ 102613\n\n
+comment1.params=
+comment1.target=TreeDisplay()
+comment1.text=\ creates\ a\ frame\ with\ a\ new\ TreeDisplay\ component.\n\ @return\ TreeDisplay\ component\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=java.awt.Dimension\ getPreferredSize()
+comment3.text=\n\ @return\ the\ default\ size\ of\ the\ tree\n
+comment4.params=g
+comment4.target=void\ paint(java.awt.Graphics)
+comment4.text=\n\ called\ whenever\ the\ TreeDisplay\ must\ be\ drawn\ on\ the\ screen\n\ @param\ g\ allows\ you\ to\ draw\ the\ tree\n
+comment5.params=g2\ t\ minX\ maxX\ y\ yIncr
+comment5.target=void\ drawTree(java.awt.Graphics2D,\ TreeNode,\ int,\ int,\ int,\ int)
+comment5.text=\n\ draws\ the\ tree,\ starting\ from\ the\ given\ node,\ in\ the\ region\ with\ x\ values\ ranging\n\ \ \ \ \ \ from\ minX\ to\ maxX,\ with\ y\ value\ beginning\ at\ y,\ and\ next\ level\ at\ y\ +\ yIncr.\n\ @param\ g2\ renders\ 2d\ shapes/text/images\n\ @param\ minx\ minimum\ x\ coordinate\ of\ tree\ drawing\n\ @param\ maxx\ maximum\ x\ coordinate\ of\ tree\ drawing\n\ @param\ y\ y\ coordinate\ of\ the\ root\n\ @param\ yincr\ the\ amount\ of\ vertical\ space\ between\ each\ node\ level\n
+comment6.params=root
+comment6.target=void\ displayTree(TreeNode)
+comment6.text=\n\ displayTree\ tells\ the\ component\ to\ switch\ to\ displaying\ the\ given\ tree\n\ @param\ root\ is\ the\ root\ of\ the\ tree\ to\ display\n\ @postcondition\ the\ component\ displays\ the\ tree\ defined\ by\ root\n
+comment7.params=t
+comment7.target=void\ visit(TreeNode)
+comment7.text=\n\ visit\ changes\ the\ background\ color\ of\ the\ node\ given\ in\ the\ parameter\ to\ yellow,\n\ lighting\ up\ the\ node\ to\ indicate\ we\ are\ visiting\ it.\n\ @param\ t\ the\ node\ to\ light\ up\n\ postcondition\:\ the\ background\ color\ on\ the\ display\ for\ the\ selected\ node\ is\ changed\ to\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ yellow\n
+comment8.params=delay
+comment8.target=void\ setDelay(int)
+comment8.text=\n\ change\ the\ length\ of\ time\ in\ milliseconds\ to\ pause\ when\ visiting\ a\ node\n\ @param\ delay\ is\ the\ amount\ of\ time\ the\ program\ should\ wait\n
+comment9.params=tester
+comment9.target=void\ setTester(BinaryTreeTester)
+comment9.text=\n\ updates\ instance\ variable\ tester\n\ @param\ tester\ is\ the\ new\ tester\n
+numComments=10

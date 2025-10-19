@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BSTUtilities
+comment0.text=\ a\ collection\ of\ static\ methods\ for\ operating\ on\ binary\ search\ trees\n\ @author\ Anu\ Datar\n\ @author\ Melody\ Yin\n\ @version\ 12-11-21\n
+comment1.params=t\ x\ display
+comment1.target=boolean\ contains(TreeNode,\ java.lang.Comparable,\ TreeDisplay)
+comment1.text=\n\ @param\ t\ is\ a\ binary\ search\ tree\ in\ ascending\ order\n\ @param\ x\ is\ the\ value\ being\ looked\ for\ in\ t\n\ @param\ display\ shows\ the\ program's\ progress\n\ @return\ true\ if\ t\ contains\ the\ value\ x;\n\ \ \ \ \ \ \ \ \ otherwise,\ returns\ false\n
+comment2.params=t\ x\ display
+comment2.target=TreeNode\ insert(TreeNode,\ java.lang.Comparable,\ TreeDisplay)
+comment2.text=\n\ @param\ t\ is\ a\ binary\ search\ tree\ in\ ascending\ order\n\ @param\ x\ is\ the\ value\ to\ be\ inserted\ into\ t\n\ @param\ display\ shows\ progress\ of\ program\n\ @return\ a\ new\ tree\ containing\ x\ if\ empty;\n\ \ \ \ otherwise,\ returns\ t,\ with\ x\ having\ been\ inserted\n\ \ \ \ at\ the\ appropriate\ position\ to\ maintain\ the\ binary\n\ \ \ \ search\ tree\ property;\ x\ is\ ignored\ if\ it\ is\ a\n\ \ \ \ duplicate\ of\ an\ element\ already\ in\ t;\ only\ one\ new\n\ \ \ \ TreeNode\ is\ created\ in\ the\ course\ of\ the\ traversal\n
+comment3.params=t\ display
+comment3.target=TreeNode\ deleteNode(TreeNode,\ TreeDisplay)
+comment3.text=\n\ precondition\:\ \ t\ is\ a\ binary\ search\ tree\ in\ ascending\ order\n\ postcondition\:\ returns\ a\ pointer\ to\ a\ binary\ search\ tree,\n\ in\ which\ the\ value\ at\ node\ t\ has\ been\ deleted\n\ (and\ no\ new\ TreeNodes\ have\ been\ created)\n
+comment4.params=t
+comment4.target=TreeNode\ rightmost(TreeNode)
+comment4.text=\n\ @param\ t\ is\ the\ root\ of\ the\ tree\n\ @return\ the\ rightmost\ node\ in\ a\ tree\n
+comment5.params=t\ x\ display
+comment5.target=TreeNode\ delete(TreeNode,\ java.lang.Comparable,\ TreeDisplay)
+comment5.text=\n\ @param\ t\ is\ a\ binary\ search\ tree\ in\ ascending\ order\n\ @param\ x\ is\ the\ value\ we\ are\ deleting\ from\ t\n\ @param\ display\ shows\ the\ progress\ of\ the\ program\n\ @return\ a\ pointer\ to\ a\ binary\ search\ tree,\n\ \ \ \ \ \ \ \ \ \ in\ which\ the\ value\ x\ has\ been\ deleted\ (if\ present)\n\ \ \ \ \ \ \ \ \ \ (and\ no\ new\ TreeNodes\ have\ been\ created)\n
+numComments=6

@@ -1,0 +1,35 @@
+Animal
+Land Animal
+Feline
+Cat
+$
+$
+Dog
+$
+$
+Reptile
+Turtle
+$
+$
+Bird
+Penguin
+$
+$
+Dolphin
+$
+$
+Object
+Non-Electronic
+Book
+$
+$
+Laptop
+$
+$
+Republican
+Donald Trump
+$
+$
+Barack Obama
+$
+$
