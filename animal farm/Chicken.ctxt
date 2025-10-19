@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Chicken
+comment1.params=
+comment1.target=Chicken()
+comment2.params=chickenType
+comment2.target=Chicken(java.lang.String)
+comment3.params=latinName\ chickenType
+comment3.target=Chicken(java.lang.String,\ java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ speak()
+numComments=5

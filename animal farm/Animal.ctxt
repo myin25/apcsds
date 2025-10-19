@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Animal
+comment1.params=latin\ common
+comment1.target=Animal(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getLatinName()
+comment3.params=
+comment3.target=java.lang.String\ getCommonName()
+comment4.params=newLatinName
+comment4.target=void\ setLatinName(java.lang.String)
+comment5.params=newCommonName
+comment5.target=void\ setCommonName(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ speak()
+comment7.params=other
+comment7.target=int\ compareTo(java.lang.Object)
+numComments=8

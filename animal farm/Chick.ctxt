@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Chick
+comment1.params=
+comment1.target=Chick()
+comment2.params=chick
+comment2.target=Chick(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ speak()
+numComments=4
