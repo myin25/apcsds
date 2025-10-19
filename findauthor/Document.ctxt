@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Document
+comment0.text=\n\ Directs\ scanning\ and\ parsing\ of\ a\ document\n\n\ @author\ Melody\ Yin\n\ @version\ 18\ May\ 2022\n
+comment1.params=tscan
+comment1.target=Document(Scanner)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Document\n\ @param\ tscan\ \ \ \ \ \ \ \ \ \ \ \ \ the\ document's\ scanner\n
+comment2.params=
+comment2.target=void\ getNextToken()
+comment2.text=\n\ set\ currentToken\ to\ next\ token\n
+comment3.params=token
+comment3.target=void\ eat(Token)
+comment3.text=\n\ 'eats'\ the\ current\ token\ (advances\ the\ scanner\ by\ 1\ token)\ if\ the\n\ expected\ token\ (token)\ matches\ the\ current\ token.\ otherwise,\ throw\ a\n\ runtime\ exception\n\ @param\ token\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ current\ token\n
+comment4.params=
+comment4.target=Phrase\ parsePhrase()
+comment4.text=\n\ @return\ the\ phrase\ that\ the\ current\ token\ is\ a\ part\ of\n\ @postcondition\ \ \ \ \ \ \ \ \ \ \ the\ currentToken\ is\ advanced\ to\ the\ token\n\ immediately\ after\ the\ phrase\ that\ was\ just\ parsed\ through\n
+comment5.params=
+comment5.target=Sentence\ parseSentence()
+comment5.text=\n\ @return\ the\ sentence\ that\ the\ current\ token\ is\ a\ part\ of\n\ @postcondition\ \ \ \ \ \ \ \ \ \ \ the\ currentToken\ is\ advanced\ to\ the\ token\n\ immediately\ after\ the\ sentence\ that\ was\ just\ parsed\ through\n
+comment6.params=
+comment6.target=void\ parseDocument()
+comment6.text=\n\ converts\ the\ document\ into\ Sentence,\ Phrase,\ and\ Token\ objects\ and\ \n\ stores\ it\ in\ a\ List\n
+comment7.params=
+comment7.target=java.util.List\ getSentences()
+comment7.text=\n\ @return\ a\ deep\ copy\ of\ the\ sentences\ stored\ in\ the\ document\ (a\ deep\n\ copy\ means\ that\ each\ object\ in\ the\ returned\ list\ has\ been\ duplicated,\n\ and\ not\ just\ a\ reference\ is\ returned)\n
+numComments=8

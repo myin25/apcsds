@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MapEntry
+comment0.text=\n\ \n\ @author\ joelmanning\n\ @version\ 1.0\n\ @param\ <K>\n\ \ \ \ \ \ \ \ \ \ \ \ the\ type\ of\ key\ to\ hold\n\ @param\ <V>\n\ \ \ \ \ \ \ \ \ \ \ \ the\ type\ of\ value\ to\ hold\n
+comment1.params=key\ value
+comment1.target=MapEntry(java.lang.Object,\ java.lang.Object)
+comment1.text=\n\ @param\ key\n\ \ \ \ \ \ \ \ \ \ \ \ the\ initial\ key\ for\ the\ entry\n\ @param\ value\n\ \ \ \ \ \ \ \ \ \ \ \ the\ initial\ value\ for\ the\ entry\n
+comment2.params=
+comment2.target=java.lang.Object\ getKey()
+comment2.text=\n\ @return\ the\ key\ in\ the\ entry\n
+comment3.params=key
+comment3.target=void\ setKey(java.lang.Object)
+comment3.text=\n\ @param\ key\n\ \ \ \ \ \ \ \ \ \ \ \ the\ key\ to\ set\ this\ entry's\ key\ to\n
+comment4.params=
+comment4.target=java.lang.Object\ getValue()
+comment4.text=\n\ @return\ the\ value\ of\ the\ entry\n
+comment5.params=val
+comment5.target=java.lang.Object\ setValue(java.lang.Object)
+comment5.text=\n\ @return\ the\ previous\ value\ in\ the\ entry\n\ @param\ val\n\ \ \ \ \ \ \ \ \ \ \ \ the\ value\ to\ set\ this\ entry's\ value\ to\n
+comment6.params=me
+comment6.target=boolean\ equals(MapEntry)
+comment6.text=\n\ @param\ me\n\ \ \ \ \ \ \ \ \ \ \ \ the\ MapEntry\ to\ check\ if\ this\ is\ equal\ to\n\ @return\ whether\ it\ is\ equal\ to\ that\ MapEntry\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Token
+comment0.text=\n\ Represents\ an\ input\ Token\ of\ a\ certain\ type\ and\ a\ specified\ value.\n\n\ @author\ Anu\ Datar\n\ @author\ Melody\ Yin\n\ @version\ 16\ May,\ 2022\n
+comment1.params=ttype\ str
+comment1.target=Token(Scanner.TOKEN_TYPE,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Token\n\ @param\ ttype\ \ \ \ \ \ \ \ \ \ \ \ \ token\ type\n\ @param\ str\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ value\ of\ the\ token\n
+comment2.params=
+comment2.target=Scanner.TOKEN_TYPE\ getType()
+comment2.text=\n\ @return\ the\ type\ of\ the\ token\n
+comment3.params=
+comment3.target=java.lang.String\ getValue()
+comment3.text=\n\ @return\ the\ value\ of\ the\ token\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ @return\ the\ string\ version\ of\ the\ token\n
+comment5.params=other
+comment5.target=boolean\ equals(Token)
+comment5.text=\n\ @param\ other\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ token\ that\ this\ is\ being\ compared\ to\n\ @return\ true\ if\ other\ is\ equal\ to\ this\ in\ terms\ of\ stored\ value\ and\n\ type,\ false\ otherwise.\n
+numComments=6

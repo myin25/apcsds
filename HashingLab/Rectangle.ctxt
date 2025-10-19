@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\n\ Rectangle\ represents\ a\ rectangle\ with\ the\ values\ length\ and\ width.\ It\ has\ \n\ \ \ \ \ \ \ the\ functions\:\n\ \ \ \ \ \ \ \ \ \ \ getLength()\n\ \ \ \ \ \ \ \ \ \ \ getWidth()\n\ \ \ \ \ \ \ \ \ \ \ toString()\n\ \ \ \ \ \ \ \ \ \ \ equals(Rectangle\ rect2)\n\ \ \ \ \ \ \ \ \ \ \ hashCode()\n\ @author\ Anu\ Datar\n\ @author\ Melody\ Yin\n\ @version\ 1-31-22\n
+comment1.params=len\ w
+comment1.target=Rectangle(int,\ int)
+comment1.text=\n\ Constructor\ function,\ sets\ length\ and\ width\ to\ be\ specified\ values\n\ @param\ len\ is\ the\ length\ of\ the\ rectangle\n\ @param\ w\ is\ the\ width\ of\ the\ rectangle\n
+comment2.params=
+comment2.target=int\ getLength()
+comment2.text=\n\ @return\ the\ length\ of\ the\ rectangle\n
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\n\ @return\ the\ width\ of\ the\ rectangle\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ @return\ the\ rectangle\ converted\ into\ string\ form\ (length\ x\ width)\n
+comment5.params=rect2
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\n\ Compares\ length\ and\ width\ of\ rect2\ with\ rectangle\ to\ determine\ if\ they\n\ \ \ \ \ \ are\ equal.\ Overrides\ default\ equals()\ function.\n\ @param\ rect2\ is\ the\ rectangle\ being\ compared\ to\n\ @return\ true\ if\ rect2\ and\ rectangle\ have\ the\ same\ dimensions\n\ \ \ \ \ \ \ \ \ false\ if\ they\ have\ different\ dimensions\n
+comment6.params=rect2
+comment6.target=boolean\ equals(Rectangle)
+comment7.params=
+comment7.target=int\ hashCode()
+comment7.text=\n\ Computes\ the\ hashcode\ of\ the\ rectangle\ and\ returns\ it\n\ @return\ hashcode\ of\ the\ rectangle\n
+numComments=8

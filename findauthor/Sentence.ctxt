@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Sentence
+comment0.text=\n\ A\ collection\ of\ Phrase\ objects,\ surrounded\ on\ each\ side\ by\n\ some\ kind\ of\ punctuation.\n\n\ @author\ Melody\n\ @version\ 18\ May\ 2022\n
+comment1.params=
+comment1.target=Sentence()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Phrase\n
+comment2.params=phrase
+comment2.target=void\ addPhrase(Phrase)
+comment2.text=\n\ Adds\ a\ phrase\ to\ the\ list\ of\ phrases\ in\ this\ sentence\n\ Big\ O\ Performance\:\ O(1)\n\ @param\ phrase\ \ \ \ \ \ \ \ \ \ \ \ phrase\ to\ be\ added\n
+comment3.params=
+comment3.target=java.util.List\ getPhrases()
+comment3.text=\n\ @return\ a\ deep\ copy\ of\ the\ sentence\ (not\ just\ a\ reference,\ returns\ an\n\ exact\ copy\ of\ the\ sentence)\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ @return\ a\ string\ representation\ of\ the\ Sentence\n
+numComments=5

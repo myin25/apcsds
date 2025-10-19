@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Phrase
+comment0.text=\n\ A\ collection\ of\ Token\ objects\ of\ type\ WORD,\ surrounded\ on\ each\ side\ by\n\ some\ kind\ of\ punctuation.\n\n\ @author\ Melody\n\ @version\ 18\ May\ 2022\n
+comment1.params=
+comment1.target=Phrase()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Phrase\n
+comment2.params=token
+comment2.target=void\ addToken(Token)
+comment2.text=\n\ Adds\ token\ to\ the\ phrase's\ list\ of\ tokens\n\ Big\ O\ Performance\:\ O(1)\n\ @param\ token\ \ \ \ \ \ \ \ \ \ \ \ \ the\ token\ to\ be\ added\ to\ the\ list\n
+comment3.params=
+comment3.target=java.util.List\ getTokens()
+comment3.text=\n\ @return\ a\ deep\ copy\ of\ the\ tokens\ (not\ just\ returning\ a\ reference,\n\ duplicates\ each\ object\ contained\ in\ the\ list\ and\ returns)\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ @return\ a\ string\ format\ of\ the\ Phrase\n
+numComments=5
