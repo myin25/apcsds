@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Rook
+comment0.text=\n\ Represents\ Rook\ piece\ in\ chess\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=col\ fileName
+comment1.target=Rook(java.awt.Color,\ java.lang.String)
+comment1.text=\n\ Creates\ new\ rook\ object\n\ @param\ col\ \ \ \ \ \ \ \ \ \ \ rook\ color\n\ @param\ fileName\ \ \ \ \ \ pathway\ to\ rook's\ image\n
+comment2.params=
+comment2.target=java.util.ArrayList\ destinations()
+comment2.text=\n\ @return\ all\ possible\ places\ on\ the\ board\ that\ the\ rook\ can\ move\ to\n
+numComments=3

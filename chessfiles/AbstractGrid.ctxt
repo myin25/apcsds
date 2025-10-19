@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AbstractGrid
+comment0.text=\n\ AP(r)\ Computer\ Science\ GridWorld\ Case\ Study\:\n\ Copyright(c)\ 2005-2006\ Cay\ S.\ Horstmann\ (http\://horstmann.com)\n\n\ This\ code\ is\ free\ software;\ you\ can\ redistribute\ it\ and/or\ modify\n\ it\ under\ the\ terms\ of\ the\ GNU\ General\ Public\ License\ as\ published\ by\n\ the\ Free\ Software\ Foundation.\n\n\ This\ code\ is\ distributed\ in\ the\ hope\ that\ it\ will\ be\ useful,\n\ but\ WITHOUT\ ANY\ WARRANTY;\ without\ even\ the\ implied\ warranty\ of\n\ MERCHANTABILITY\ or\ FITNESS\ FOR\ A\ PARTICULAR\ PURPOSE.\ \ See\ the\n\ GNU\ General\ Public\ License\ for\ more\ details.\n\n\ @author\ Cay\ Horstmann\n\ @version\ 4-8-22\n\ @param\ <E>\ the\ object\ contained\ in\ AbstractGrid\n
+comment1.params=loc
+comment1.target=java.util.ArrayList\ getNeighbors(Location)
+comment1.text=\n\ @return\ all\ neighboring\ objects\ to\ a\ given\ location\n\ @param\ loc\ \ \ \ \ \ \ \ \ \ \ the\ given\ location\n
+comment2.params=loc
+comment2.target=java.util.ArrayList\ getValidAdjacentLocations(Location)
+comment2.text=\n\ @param\ loc\ \ \ \ \ \ \ \ \ \ \ a\ given\ location\n\ @return\ all\ valid\ locations\ adjacent\ to\ a\ given\ location\n
+comment3.params=loc
+comment3.target=java.util.ArrayList\ getEmptyAdjacentLocations(Location)
+comment3.text=\n\ @param\ loc\ \ \ \ \ \ \ \ \ \ \ a\ specified\ location\n\ @return\ all\ empty\ locations\ adjacent\ to\ a\ specified\ location\n
+comment4.params=loc
+comment4.target=java.util.ArrayList\ getOccupiedAdjacentLocations(Location)
+comment4.text=\n\ @param\ loc\ \ \ \ \ \ \ \ \ \ \ a\ specified\ location\n\ @return\ all\ occupied\ locations\ adjacent\ to\ a\ specified\ location\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Creates\ a\ string\ that\ describes\ this\ grid.\n\ @return\ a\ string\ with\ descriptions\ of\ all\ objects\ in\ this\ grid\ (not\n\ necessarily\ in\ any\ particular\ order),\ in\ the\ format\ {loc\=obj,\ loc\=obj,\n\ ...}\n
+numComments=6

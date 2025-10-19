@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SmartestPlayer
+comment0.text=\n\ SmartestPlayer\ class\ (not\ functional\ yet)\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=b\ n\ c
+comment1.target=SmartestPlayer(Board,\ java.lang.String,\ java.awt.Color)
+comment1.text=\n\ Instantiates\ SmartestPlayer\ object\n\ @param\ b\ \ \ \ \ \ \ \ \ player's\ board\n\ @param\ n\ \ \ \ \ \ \ \ \ player's\ name\n\ @param\ c\ \ \ \ \ \ \ \ \ player's\ color\n
+comment2.params=
+comment2.target=Move\ nextMove()
+comment2.text=\n\ Determines\ next\ move\ for\ the\ player\n\ @return\ next\ move\n
+comment3.params=col
+comment3.target=java.awt.Color\ swtch(java.awt.Color)
+comment3.text=\n\ @param\ col\ \ \ \ \ \ \ \ \ \ \ the\ original\ color\n\ @return\ the\ opposite\ of\ the\ color\ given\n
+comment4.params=thiscol
+comment4.target=Move\ nextMoveHelper(java.awt.Color)
+comment4.text=\n\ Helper\ that\ repeatedly\ determines\ the\ optimal\ move\ that\ an\ opponent\n\ \ \ \ \ \ would\ make\n\ @return\ opponent/self's\ next\ move\n
+comment5.params=
+comment5.target=int\ score()
+comment5.text=\n\ @return\ the\ value\ of\ the\ board\ (the\ higher\ the\ value,\n\ \ \ \ \ \ the\ better\ the\ position\ of\ the\ player)\n
+numComments=6

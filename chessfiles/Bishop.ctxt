@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Bishop
+comment0.text=\n\ Simulates\ Bishop\ piece\ in\ chess\n\ @author\ Melody\ Yin\n\ @version\ 4-8-22\n
+comment1.params=col\ fileName
+comment1.target=Bishop(java.awt.Color,\ java.lang.String)
+comment1.text=\n\ Initializes\ bishop\ class\ with\ color\ and\ pathway\ to\ image\n\ @param\ col\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ bishop's\ color\ (black/white)\n\ @param\ fileName\ \ \ \ \ \ \ \ \ \ path\ to\ bishop's\ image\n
+comment2.params=
+comment2.target=java.util.ArrayList\ destinations()
+comment2.text=\n\ @return\ a\ list\ of\ possible\ locations\ that\ a\ bishop\ can\ move\ to\n
+numComments=3

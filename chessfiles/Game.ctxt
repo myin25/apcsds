@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\n\ Simulates\ Chess\ game\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Runs\ the\ game\ (initializes\ pieces\ +\ begins\ running\ the\ play()\ function)\n\ @param\ args\ \ \ \ \ \ default\ argument\n
+comment2.params=board\ display\ player
+comment2.target=void\ nextTurn(Board,\ BoardDisplay,\ Player)
+comment2.text=\n\ Executes\ a\ player's\ move,\ updates\ the\ display,\ and\ then\n\ \ \ \ \ \ waits\ half\ a\ second\n\ @param\ board\ \ \ \ \ \ \ \ \ \ \ \ \ board\ used\ for\ the\ game\n\ @param\ display\ \ \ \ \ \ \ \ \ \ \ to\ be\ updated\ after\ the\ move\n\ @param\ player\ \ \ \ \ \ \ \ \ \ \ \ active\ player\n
+comment3.params=board\ col
+comment3.target=boolean\ checked(Board,\ java.awt.Color)
+comment3.text=\n\ Determines\ if\ a\ king\ of\ the\ opposite\ color\ of\ the\ \n\ \ \ \ \ \ given\ color\ is\ checked\n\ @param\ board\ \ \ \ \ \ \ \ \ \ \ \ \ game\ board\n\ @param\ col\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ current\ player's\ color\n\ @return\ if\ the\ opponent's\ king\ is\ checked\n
+comment4.params=board\ display\ white\ black
+comment4.target=void\ play(Board,\ BoardDisplay,\ Player,\ Player)
+comment4.text=\n\ Repeatedly\ switches\ the\ active\ player\ and\ calls\ nextTurn\ function\n\ @param\ board\ \ \ \ \ \ \ \ \ board\ that\ the\ game\ is\ being\ played\ on\n\ @param\ display\ \ \ \ \ \ \ the\ display\ that\ needs\ to\ be\ updated\n\ @param\ white\ \ \ \ \ \ \ \ \ player\ 1\n\ @param\ black\ \ \ \ \ \ \ \ \ player\ 2\n
+comment5.params=
+comment5.target=void\ endGame()
+comment5.text=\n\ used\ by\ other\ classes\ to\ recognize\ that\ the\ game\ is\ over\n
+numComments=6

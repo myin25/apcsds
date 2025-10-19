@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SmartPlayer
+comment0.text=\n\ SmartPlayer\ class\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=b\ n\ c
+comment1.target=SmartPlayer(Board,\ java.lang.String,\ java.awt.Color)
+comment1.text=\n\ Instantiates\ SmartPlayer\ object\n\ @param\ b\ \ \ \ \ \ \ \ \ \ \ \ \ player's\ board\n\ @param\ n\ \ \ \ \ \ \ \ \ \ \ \ \ player's\ name\n\ @param\ c\ \ \ \ \ \ \ \ \ \ \ \ \ player's\ color\n
+comment2.params=
+comment2.target=Move\ nextMove()
+comment2.text=\n\ @return\ the\ player's\ next\ move\n
+comment3.params=
+comment3.target=int\ score()
+comment3.text=\n\ Sums\ up\ all\ piece\ values\ on\ the\ board\ that\ belong\ to\ itself\ and\n\ \ \ \ \ \ subtracts\ all\ the\ piece\ values\ of\ the\ opponent\ to\ evaluate\n\ \ \ \ \ \ how\ well\ it\ is\ doing\ in\ the\ game\n
+numComments=4

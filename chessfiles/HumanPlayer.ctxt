@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=HumanPlayer
+comment0.text=\n\ Takes\ input\ from\ a\ human\ playing\ the\ game\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=b\ n\ c\ d
+comment1.target=HumanPlayer(Board,\ java.lang.String,\ java.awt.Color,\ BoardDisplay)
+comment1.text=\n\ Initializes\ board,\ name,\ color,\ and\ display\n\ @param\ b\ \ \ \ \ \ \ \ \ player's\ board\n\ @param\ n\ \ \ \ \ \ \ \ \ player's\ name\n\ @param\ c\ \ \ \ \ \ \ \ \ player's\ color\n\ @param\ d\ \ \ \ \ \ \ \ \ player's\ display\n
+comment2.params=
+comment2.target=Move\ nextMove()
+comment2.text=\n\ Determines\ the\ player's\ next\ move\ by\ taking\ input\ from\ the\ board\n\ @return\ the\ player's\ move\n
+numComments=3

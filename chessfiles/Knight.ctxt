@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Knight
+comment0.text=\n\ Represents\ Knight\ piece\ in\ a\ chess\ game\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=col\ fileName
+comment1.target=Knight(java.awt.Color,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ King\n\ @param\ col\ \ \ \ \ \ \ \ \ \ \ piece\ color\n\ @param\ fileName\ \ \ \ \ \ pathway\ for\ the\ piece's\ image\n
+comment2.params=
+comment2.target=java.util.ArrayList\ destinations()
+comment2.text=\n\ Finds\ all\ possible\ places\ that\ the\ piece\ can\ move\ to\n\ @return\ all\ possible\ places\ the\ piece\ can\ move\ to\n
+numComments=3

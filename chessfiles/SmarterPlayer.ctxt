@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SmarterPlayer
+comment0.text=\n\ SmarterPlayer\ class\ -\ looks\ 2\ steps\ ahead\ in\ a\ game\n\ @author\ Melody\ Yin\n\ @version\ 4-9-22\n
+comment1.params=b\ n\ c
+comment1.target=SmarterPlayer(Board,\ java.lang.String,\ java.awt.Color)
+comment1.text=\n\ Instantiates\ SmartPlayer\ object\n\ @param\ b\ \ \ \ \ \ \ \ \ \ \ \ \ player's\ board\n\ @param\ n\ \ \ \ \ \ \ \ \ \ \ \ \ player's\ name\n\ @param\ c\ \ \ \ \ \ \ \ \ \ \ \ \ player's\ color\n
+comment2.params=
+comment2.target=Move\ nextMove()
+comment2.text=\n\ @return\ the\ player's\ next\ move\n
+comment3.params=thiscol
+comment3.target=Move\ nextMoveHelper(java.awt.Color)
+comment3.text=\n\ Helps\ to\ determine\ the\ optimal\ move\ the\ opponent/self\ would\ make\n\ @param\ thiscol\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ color\ of\ the\ active\ player\n\ @return\ the\ player's\ optimal\ move\ (which\ player\ is\ determined\ by\n\ \ \ \ \ \ thiscol)\n
+comment4.params=
+comment4.target=int\ score()
+comment4.text=\n\ Sums\ up\ piece\ values\ on\ the\ board\ of\ self\ and\ subtracts\n\ \ \ \ \ \ opponent's\ piece\ values\n\ @return\ the\ value\ of\ the\ board\n
+numComments=5
