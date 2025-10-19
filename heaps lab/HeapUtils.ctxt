@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=HeapUtils
+comment0.text=\n\ HeapUtils\ contains\ methods\ to\ manipulate\ a\ given\ heap.\ It\ is\ able\ to\:\n\ \ \ \ \ \ heapify\ a\ given\ tree\ -\ change\ order\ of\ the\ elements\ to\ satisfy\ a\ heap's\n\ \ \ \ \ \ \ \ \ \ order\ property\ (min/max)\n\ \ \ \ \ \ \n\n\ @author\ Melody\ Yin\n\ @version\ 1/7/22\n
+comment1.params=heap\ index\ heapSize
+comment1.target=void\ heapify(java.lang.Comparable[],\ int,\ int)
+comment1.text=\n\ Given\ a\ complete\ binary\ tree\ represented\ as\ an\ array,\ heapify\ converts\n\ \ \ \ \ \ the\ tree\ to\ satisfy\ a\ max\ heap\ property.\ Starting\ at\ the\n\ \ \ \ \ \ last\ nonleaf\ node,\ heapify\ 'bubbles\ up'\ the\ largest\ values\ to\ the\n\ \ \ \ \ \ top\ of\ the\ heap.\n\ \ \ \ \ \ \n\ If\ the\ root\ of\ the\ tree\ is\ larger\ than\ both\ of\ its\ children,\ then\ the\n\ \ \ \ \ \ code\ terminates,\ having\ satisfied\ the\ heap\ order\ condition\ for\n\ \ \ \ \ \ the\ subtree\ rooted\ at\ index.\n\ If\ one\ or\ more\ of\ the\ root's\ children\ is\ larger,\ then\ the\ larger\ of\ \n\ \ \ \ \ \ the\ two\ children\ is\ swapped\ with\ the\ root\ and\ heapify\ is\ called\ \n\ \ \ \ \ \ again,\ but\ on\ the\ subtree\ that\ the\ larger\ child\ was\ originally\n\ \ \ \ \ \ from.\n\ \ \ \ \ \ \n\ Runtime\:\ O\ log(n)\n\ \n\ @param\ heap\ \ \ \ \ \ \ \ \ \ the\ tree\ to\ be\ heapified,\ represented\ as\ an\ array\n\ @param\ index\ \ \ \ \ \ \ \ \ the\ index\ of\ the\ root\ of\ the\ tree\ that\ is\ going\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ be\ heapified\n\ @param\ heapSize\ \ \ \ \ \ the\ size\ of\ the\ heap\n
+comment2.params=heap\ index\ maxchild
+comment2.target=void\ swap(java.lang.Comparable[],\ int,\ int)
+comment3.params=heap\ heapSize
+comment3.target=void\ buildHeap(java.lang.Comparable[],\ int)
+comment3.text=\n\ Given\ a\ complete\ binary\ tree\ represented\ as\ an\ array,\ buildHeap\n\ \ \ \ \ \ moves\ the\ elements\ in\ it\ to\ satisfy\ the\ max\ heap\ order\n\ \ \ \ \ \ property\ by\ iterating\ through\ each\ nonleaf\ node,\ starting\n\ \ \ \ \ \ from\ the\ last\ one,\ and\ calling\ heapify\ on\ it.\n\ \ \ \ \ \ \n\ Runtime\:\ O(n)\n\ \ \ \ \ \ \n\ @param\ heap\ is\ a\ complete\ binary\ tree\ represented\ as\ an\ array\n\ @param\ heapSize\ is\ the\ size\ of\ the\ heap\n
+comment4.params=heap\ item\ heapSize
+comment4.target=java.lang.Comparable[]\ insert(java.lang.Comparable[],\ java.lang.Comparable,\ int)
+comment4.text=\n\ Insert\ copies\ the\ heap\ into\ an\ array\ with\ length\ (heap\ length\ +\ 1).\ It\n\ \ \ \ \ \ then\ adds\ a\ new\ value\ to\ the\ end\ of\ the\ array.\ In\ order\ to\ \n\ \ \ \ \ \ satisfy\ the\ heap\ order\ property,\ it\ 'bubbles\ up'\ the\ new\ value\ to\n\ \ \ \ \ \ its\ proper\ position,\ where\ its\ children\ are\ lesser\ than\ it\ and\n\ \ \ \ \ \ its\ parent\ is\ larger.\n\ \n\ Runtime\:\ O\ log(n)\n\ \n\ @param\ heap\ is\ the\ heap\ represented\ as\ an\ array\n\ @param\ item\ is\ the\ new\ value\ to\ be\ added\ to\ the\ heap\n\ @param\ heapSize\ is\ the\ size\ of\ the\ heap\n\ @return\ the\ heap\ with\ item\ inserted\ at\ its\ correct\ place\n
+comment5.params=heap\ heapSize
+comment5.target=java.lang.Comparable\ remove(java.lang.Comparable[],\ int)
+comment5.text=\n\ Remove\ deletes\ the\ root\ of\ the\ heap.\ It\ does\ this\ by\ swapping\ the\ last\n\ \ \ \ \ \ leaf\ node\ with\ the\ root\ (to\ preserve\ the\ structure\ of\ the\ tree)\ \n\ \ \ \ \ \ and\ decreasing\ heapSize\ by\ one.\ Heapify\ is\ then\ called\ on\ the\ new\n\ \ \ \ \ \ root\ of\ the\ tree,\ and\ the\ former\ root\ of\ the\ heap\ is\ returned.\n\ \n\ Runtime\:\ O\ log(n)\n\ \n\ @param\ heap\ is\ the\ heap\ represented\ as\ an\ array\n\ @param\ heapSize\ is\ the\ size\ of\ the\ heap\n\ @return\ the\ former\ root\ value\n
+comment6.params=heap\ heapSize
+comment6.target=void\ heapSort(java.lang.Comparable[],\ int)
+comment6.text=\n\ given\ a\ heap\ represented\ as\ an\ array,\ heapSort\ sorts\ it\ using\ the\n\ \ \ \ \ \ remove\ and\ buildHeap\ methods.\n\ \n\ Runtime\:\ O\ n\ log(n)\n\ \n\ @param\ heap\ is\ a\ heap\ represented\ as\ an\ array\n\ @param\ heapSize\ is\ the\ size\ of\ the\ heap\n\ @postcondition\ heap\ is\ sorted\ in\ ascending\ order\n
+numComments=7

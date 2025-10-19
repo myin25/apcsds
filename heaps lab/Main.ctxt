@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Tests\ HeapUtil\ classes\n\n\ @author\ Melody\ Yin\n\ @version\ 1/7/21\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Creates\ Integer\ array\ of\ length\ 12\ and\ initializes\ random\ values\ for\n\ \ \ \ \ \ indices\ 1-12\ to\ test\ methods\ for\ HeapUtils\ class\n\ @param\ args\ \n
+numComments=2

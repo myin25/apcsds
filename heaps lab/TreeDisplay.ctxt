@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=TreeDisplay
+comment0.text=\n\ A\ graphical\ component\ for\ displaying\ the\ contents\ of\ a\ binary\ tree.\n\ The\ following\ methods\ are\ designed\ for\ interacting\ with\ the\ display\:\n\ \ \ \ \ \ Default\ constructor\ TreeDisplay()\n\ \ \ \ \ \ displayTree(TreeNode\ someTree)\n\ \ \ \ \ \ visit(TreeNode\ someNode)\n\ The\ displayTree\ method\ creates\ the\ initial\ display\ of\ the\ tree.\ \ It\ clears\n\ the\ component\ and\ paints\ the\ tree\n\ The\ visit\ method\ changes\ the\ background\ color\ of\ the\ node\ defined\ in\ the\n\ parameter\n\ sample\ Useage\:\n\ TreeDisplay\ display\ \=\ new\ TreeDisplay();\n\ display.displayTree(someTree);\n\ display.visit(someNode);\n\ \n\ @author\ DaveF\n\ @author\ RichardP\n\ @version\ 102613\n\n
+comment1.params=
+comment1.target=TreeDisplay()
+comment1.text=\n\ Intitializes\ TreeDisplay\ object\n\ @postcondition\ creates\ a\ frame\ with\ a\ new\ TreeDisplay\ component\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=java.awt.Dimension\ getPreferredSize()
+comment3.text=\n\ determines\ the\ default\ size\ of\ the\ frame\n\ @return\ size\ of\ the\ frame\n
+comment4.params=g
+comment4.target=void\ paint(java.awt.Graphics)
+comment4.text=\n\ called\ whenever\ the\ TreeDisplay\ must\ be\ drawn\ on\ the\ screen\n\ @param\ g\ allows\ rendering\ for\ display\n\ @postcondition\ display\ now\ shows\ the\ heap\n
+comment5.params=g2\ t\ minX\ maxX\ y\ yIncr
+comment5.target=void\ drawTree(java.awt.Graphics2D,\ TreeNode,\ int,\ int,\ int,\ int)
+comment5.text=\ \n\ draws\ the\ tree,\ starting\ from\ the\ given\ node,\ in\ the\ region\ with\ x\ \n\ \ \ \ \ \ values\ ranging\ from\ minX\ to\ maxX,\ with\ y\ value\ beginning\ at\ y,\ \n\ \ \ \ \ \ and\ next\ level\ at\ y\ +\ yIncr\n\ \ @param\ g2\ renders\ for\ the\ display\n\ \ @param\ t\ is\ the\ root\ of\ the\ tree\ to\ be\ displayed\n\ \ @param\ minX\ is\ the\ leftmost\ boundary\ of\ the\ drawing\n\ \ @param\ maxX\ is\ the\ rightmost\ boundary\ of\ the\ drawing\n\ \ @param\ y\ is\ the\ current\ y\ value\n\ \ @param\ yIncr\ increases\ y\ each\ time\ a\ new\ level\ of\ nodes\ drawn\n
+comment6.params=mroot
+comment6.target=void\ displayTree(TreeNode)
+comment6.text=\n\ displayTree\ tells\ the\ component\ to\ switch\ to\ displaying\ the\ given\ tree\n\ @param\ mroot\ is\ the\ root\ of\ the\ tree\ to\ display\n\ postcondition\:\ the\ component\ displays\ the\ tree\ defined\ by\ root\n
+comment7.params=t
+comment7.target=void\ visit(TreeNode)
+comment7.text=\n\ visit\ changes\ the\ background\ color\ of\ the\ node\ given\ in\ the\ parameter\ \n\ to\ yellow,\ lighting\ up\ the\ node\ to\ indicate\ we\ are\ visiting\ it.\n\ @param\ t\ the\ node\ to\ light\ up\n\ postcondition\:\ the\ background\ color\ on\ the\ display\ for\ the\ selected\ \n\ \ \ \ \ \ node\ is\ changed\ to\ yellow\n
+comment8.params=delay
+comment8.target=void\ setDelay(int)
+comment8.text=\n\ change\ the\ length\ of\ time\ in\ milliseconds\ to\ pause\ when\ visiting\ node\n\ @param\ delay\ is\ length\ of\ time\ to\ pause\ when\ visiting\ a\ node\n
+numComments=9

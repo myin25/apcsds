@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HeapDisplay
+comment0.text=\n\ Subclass\ of\ TreeDisplay\ that\ can\ convert\ a\ binary\ tree\ stored\ as\ an\ array\n\ \ \ \ \ \ into\ a\ heap.\ Includes\ the\ following\ methods\:\n\ \ \ \ \ \ \ \ \ \ displayHeap(Comparable[]\ heapArray,\ int\ heapSize)\ -\ draws\ heap\ as\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ tree\ given\ the\ heap\ represented\ as\ an\ array\n\ \ \ \ \ \ \ \ \ \ heapArrayToTree(Comparable[]\ heapArray,\ int\ heapSize)\ -\ builds\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ tree\ out\ of\ the\ heap,\ which\ is\ given\ as\ an\ array\n\ @author\ Melody\ Yin\n\ @author\ Anu\ Datar\n\ @version\ 1/7/22\n
+comment1.params=
+comment1.target=HeapDisplay()
+comment1.text=\n\ Intitializes\ HeapDisplay\ object\ by\ calling\ on\ superclass\ TreeDisplay\n\ @postcondition\ creates\ a\ frame\ with\ a\ new\ TreeDisplay\ component.\n
+comment2.params=heapArray\ heapSize
+comment2.target=void\ displayHeap(java.lang.Comparable[],\ int)
+comment2.text=\n\ given\ a\ heap\ expressed\ as\ an\ array\ (heapArray)\ and\ the\ size\ of\ the\n\ \ \ \ \ \ heap\ (heapSize),\ calls\ on\ helper\ method\ to\ construct\ a\ heap\ out\ \n\ \ \ \ \ \ of\ the\ array\ and\ then\ displays\ the\ heap\n\ @param\ heapArray\ -\ array\ representation\ of\ the\ heap\n\ @param\ heapSize\ -\ current\ size\ of\ the\ heap\n\ @postcondition\ frame\ now\ shows\ the\ heap\ as\ a\ tree\n
+comment3.params=heapArray\ heapSize
+comment3.target=TreeNode\ heapArrayToTree(java.lang.Comparable[],\ int)
+comment3.text=\n\ converts\ a\ binary\ tree\ stored\ as\ an\ array\ into\ a\ TreeNode\ based\ tree\n\ so\ that\ it\ can\ be\ displayed\ using\ the\ TreeDisplay\n\ @param\ heapArray\ -\ the\ array\ representation\ of\ the\ tree\n\ @param\ heapSize\ is\ the\ current\ size\ of\ the\ heap.\ \ It\ starts\ at\ \n\ \ \ \ \ \ \ \ location\ 1\ in\ the\ heapArray\ and\ ends\ at\ location\ heapSize\n\ @return\ a\ TreeNode\ representation\ of\ the\ tree\n
+numComments=4

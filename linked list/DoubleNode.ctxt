@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DoubleNode
+comment0.text=\n\ DoubleNode\ class\ simulates\ the\ actions\ of\ a\ doubly\ linked\ node\ in\ a\n\ \ \ \ \ \ \ linked\ list\n\ @author\ Melody\ Yin\n\ @version\ 10/26/21\n
+comment1.params=v
+comment1.target=DoubleNode(java.lang.Object)
+comment1.text=\n\ creates\ value,previous,next\ for\ doublenode\ object\ \n\ @param\ v\ is\ the\ value\ of\ the\ node\n\ @\n
+comment2.params=
+comment2.target=java.lang.Object\ getValue()
+comment2.text=\n\ @return\ value\ of\ the\ node\n
+comment3.params=
+comment3.target=DoubleNode\ getPrevious()
+comment3.text=\n\ @return\ previous\ node\n
+comment4.params=
+comment4.target=DoubleNode\ getNext()
+comment4.text=\n\ @return\ next\ node\n
+comment5.params=v
+comment5.target=void\ setValue(java.lang.Object)
+comment5.text=\n\ sets\ the\ value\ of\ the\ node\ to\ specified\ value\n\ @param\ v\ is\ the\ value\ the\ node\ is\ to\ be\ set\ to\n
+comment6.params=p
+comment6.target=void\ setPrevious(DoubleNode)
+comment6.text=\n\ sets\ previous\ node\ to\ specified\ node\n\ @param\ p\ is\ the\ new\ previous\ node\n
+comment7.params=n
+comment7.target=void\ setNext(DoubleNode)
+comment7.text=\n\ sets\ next\ node\ to\ specified\ node\n\ @param\ n\ is\ the\ new\ next\ node\n
+numComments=8

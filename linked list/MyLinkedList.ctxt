@@ -1,0 +1,58 @@
+#BlueJ class context
+comment0.target=MyLinkedList
+comment0.text=\n\ simulates\ linked\ list\ with\ doubly\ linked\ nodes\n\ @author\ Melody\ Yin\n\ @param\ <E>\ specifies\ type\ of\ element\n\ @version\ 10/26/21\n
+comment1.params=
+comment1.target=MyLinkedList()
+comment1.text=\n\ initializes\ linkedlist\ values\n\ @postcondition\ first,\ last,\ and\ size\ variables\ are\ initialized\n
+comment10.params=index
+comment10.target=java.lang.Object\ remove(int)
+comment10.text=\ \n\ removes\ element\ at\ specified\ index\n\ @param\ index\ is\ location\ that\ element\ is\ being\ removed\ from\n\ @postcondition\ removes\ element\ from\ position\ index,\ moving\ elements\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ at\ position\ index\ +\ 1\ and\ higher\ to\ the\ left\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (subtracts\ 1\ from\ their\ indices)\ and\ adjusts\ size\n\ @return\ the\ element\ formerly\ at\ the\ specified\ position\n
+comment11.params=index\ obj
+comment11.target=void\ add(int,\ java.lang.Object)
+comment11.text=\ \n\ adds\ specified\ value\ at\ specified\ position\n\ @param\ index\ specifies\ position\ that\ value\ insertion\ will\ occur\n\ @param\ obj\ is\ element\ being\ added\ to\ list\n\ @obj\ specifies\ value\ being\ inserted\n\ @precondition\ \ 0\ <\=\ index\ <\=\ size\n\ @postcondition\ inserts\ obj\ at\ position\ index,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ moving\ elements\ at\ position\ index\ and\ higher\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ the\ right\ (adds\ 1\ to\ their\ indices)\ and\ adjusts\ size\n
+comment12.params=obj
+comment12.target=void\ addFirst(java.lang.Object)
+comment12.text=\n\ adds\ new\ element\ at\ the\ beginning\ of\ the\ list\n\ @param\ obj\ specifies\ value\ being\ inserted\n\ @postcondition\ new\ element\ at\ the\ beginning\ of\ the\ list;\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ everything\ else\ moves\ one\ index\ to\ the\ right\n
+comment13.params=obj
+comment13.target=void\ addLast(java.lang.Object)
+comment13.text=\n\ adds\ new\ element\ at\ the\ end\ of\ the\ list\n\ @param\ obj\ is\ the\ object\ being\ inserted\n\ @obj\ specifies\ value\ being\ inserted\n\ @postcondition\ new\ element\ at\ the\ end\ of\ the\ list;\n
+comment14.params=
+comment14.target=java.lang.Object\ getFirst()
+comment14.text=\n\ @return\ the\ first\ element\ of\ the\ list\n
+comment15.params=
+comment15.target=java.lang.Object\ getLast()
+comment15.text=\n\ @return\ the\ last\ element\ of\ the\ list\n
+comment16.params=
+comment16.target=java.lang.Object\ removeFirst()
+comment16.text=\n\ removes\ first\ element\ of\ the\ list\n\ @precondition\ already\ has\ at\ least\ one\ element\ in\ the\ list\ to\ remove\n\ @postcondition\ first\ element\ of\ the\ list\ is\ changed;\ \n\ \ \ \ \ \ \ \ \ \ variable\ first\ is\ changed\ to\ null/next\ element\n\ @return\ the\ previous\ first\ element\ of\ the\ list\n
+comment17.params=
+comment17.target=java.lang.Object\ removeLast()
+comment17.text=\n\ removes\ the\ last\ element\ of\ the\ list\n\ @precondition\ already\ has\ at\ least\ one\ element\ in\ the\ list\ to\ remove\n\ @postcondition\ last\ element\ of\ the\ list\ is\ changed;\ variable\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ last\ is\ changed\ to\ null/previous\ element\n\ @return\ the\ previous\ last\ element\ of\ the\ list\n
+comment18.params=
+comment18.target=java.util.Iterator\ iterator()
+comment18.text=\n\ initializes\ iterator\n\ @return\ reference\ to\ newly\ initialized\ iterator\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ converts\ linked\ list\ to\ a\ string\ for\ printing\n\ @return\ string\ version\ of\ linked\ list\n
+comment3.params=index
+comment3.target=DoubleNode\ getNodeFromFirst(int)
+comment3.text=\ \n\ gets\ node\ at\ specified\ index\n\ @parameter\ index\ is\ the\ location\ of\ the\ element\ we\ are\ trying\ to\ retrieve\n\ @precondition\ \ 0\ <\=\ index\ <\=\ size\ /\ 2\n\ @postcondition\ starting\ from\ first,\ returns\ the\ node\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ with\ given\ index\ (where\ index\ 0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ returns\ first)\n
+comment4.params=index
+comment4.target=DoubleNode\ getNodeFromLast(int)
+comment4.text=\ \n\ gets\ node\ at\ specified\ index\n\ @parameter\ index\ is\ the\ location\ of\ the\ element\ we\ are\ trying\ to\ retrieve\n\ @precondition\ \ size\ /\ 2\ <\=\ index\ <\ size\n\ @postcondition\ starting\ from\ last,\ returns\ the\ node\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ with\ given\ index\ (where\ index\ size-1\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ returns\ last)\n
+comment5.params=index
+comment5.target=DoubleNode\ getNode(int)
+comment5.text=\ \n\ gets\ node\ at\ specified\ index\n\ @parameter\ index\ is\ the\ location\ of\ the\ element\ we\ are\ trying\ to\ retrieve\n\ @precondition\ \ 0\ <\=\ index\ <\ size\n\ @postcondition\ starting\ from\ first\ or\ last\ (whichever\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ closer),\ returns\ the\ node\ with\ given\ index\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\n\ returns\ size\ of\ linked\ list\n\ @return\ size\ of\ linked\ list\n
+comment7.params=index
+comment7.target=java.lang.Object\ get(int)
+comment7.text=\n\ gets\ element\ at\ specified\ index\n\ @param\ index\ is\ the\ location\ of\ element\ we\ are\ trying\ to\ get\n\ @return\ element\ at\ specified\ index\n
+comment8.params=index\ obj
+comment8.target=java.lang.Object\ set(int,\ java.lang.Object)
+comment8.text=\ \n\ changes\ element\ at\ specified\ position\ to\ specified\ value\n\ @param\ index\ is\ specified\ position\ of\ change\n\ @param\ obj\ is\ the\ value\ the\ element\ is\ being\ changed\ to\n\ @postcondition\ replaces\ the\ element\ at\ position\ index\ with\ obj\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ returns\ the\ element\ formerly\ at\ the\ specified\ position\n\ @return\ the\ previous\ value\ of\ the\ element\n
+comment9.params=obj
+comment9.target=boolean\ add(java.lang.Object)
+comment9.text=\n\ adds\ object\ at\ the\ end\ of\ the\ list\n\ @param\ obj\ is\ the\ value\ being\ appended\ to\ the\ end\ of\ the\ list\n\ @postcondition\ appends\ obj\ to\ end\ of\ list\n\ @return\ true\n
+numComments=19
