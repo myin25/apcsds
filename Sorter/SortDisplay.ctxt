@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SortDisplay
+comment0.text=\n\ SortDisplay\ class\ allows\ the\ user\ to\ display\ visual\ representations\ of\n\ \ \ various\ sorting\ algorithm\ implementations.\ It\ contains\ the\ following\ \n\ \ \ methods\:\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SortDisplay(Sorter\ sorter)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ paintComponent(Graphics\ g)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ indexOf(Object\ x)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ update()\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ redraw()\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ actionPerformed(ActionEvent\ e)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ createArray()\n\ @author\ Anu\ Datar\n\ @version\ 2-24-22\n
+comment1.params=sorter
+comment1.target=SortDisplay(Sorter)
+comment1.text=\n\ Initializes\ display\ object\n\ @param\ sorter\ -\ represented\ with\ display\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\n\ @param\ g\ \n
+comment3.params=x
+comment3.target=int\ indexOf(java.lang.Object)
+comment3.text=\n\ @param\ x\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\n\ \n
+comment5.params=
+comment5.target=void\ redraw()
+comment5.text=\n\ \n
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=
+comment7.target=void\ run()
+comment8.params=
+comment8.target=void\ createArray()
+numComments=9

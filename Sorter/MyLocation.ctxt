@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyLocation
+comment0.text=\n\ Representation\ of\ (x,\ y)\ pairs.\ Contains\ the\ following\ methods\:\n\ \ \ \ \ \ \ MyLocation(int\ r,\ int\ c)\n\ \ \ \ \ \ \ getRow()\n\ \ \ \ \ \ \ getCol()\n\ \ \ \ \ \ \ equals(Object\ other)\n\ \ \ \ \ \ \ toString()\n\ \ \ \ \ \ \ compareTo(Object\ x)\n\ @author\ Anu\ Datar\n\ @author\ Melody\ Yin\n\ @version\ 2-24-22\n
+comment1.params=r\ c
+comment1.target=MyLocation(int,\ int)
+comment1.text=\n\ Constructor\:\ MyLocation()\n\ Usage\:\ MyLocation\ loc\ \=\ new\ MyLocation(row,\ col);\n\ -----------------------------\n\ creates\ a\ MyLocation\ object\ with\ the\ given\ row\ &\ col\n\ \n\ @param\ r\ -\ row\ of\ this\ MyLocation\n\ @param\ c\ -\ column\ of\ this\ MyLocaiton\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\n\ Method\:\ getRow()\n\ Usage\:\ loc.getRow();\n\ @return\ the\ object's\ row\n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\n\ Method\:\ getCol()\n\ Usage\:\ loc.getCol();\n\ @return\ the\ object's\ column\n
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\n\ Method\:\ equals()\n\ Usage\:\ loc.equals(Object\ other);\n\ @param\ other\ \ \ \ \ \ \ \ \ the\ object\ being\ compared\ to\ this\ object\n\ @return\ if\ the\ x\ and\ y\ values\ of\ this\ object\ match\ the\ other's\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Method\:\ toString()\n\ Usage\:\ loc.toString();\n\ @return\ a\ string\ representation\ of\ this\ object\n
+comment6.params=x
+comment6.target=int\ compareTo(java.lang.Object)
+comment6.text=\n\ Method\:\ compareTo()\n\ Usage\:\ loc.compareTo(Object\ x);\n\ @param\ x\ \ \ \ \ \ \ \ \ the\ object\ being\ compared\ to\ this\ object\n\ @return\ a\ number\ less\ than\ zero\ if\ x\ >\ this\ object\n\ \ \ \ \ \ \ \ \ if\ they\ are\ equal,\ return\ 0\n\ \ \ \ \ \ \ \ \ else,\ return\ a\ number\ larger\ than\ zero\n
+numComments=7
